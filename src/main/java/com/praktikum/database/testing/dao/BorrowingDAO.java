@@ -9,11 +9,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
-/**
- * Data Access Object (DAO) class untuk entity Borrowing
- * Menangani semua operasi CRUD untuk tabel borrowings
- * Mengelola data peminjaman buku oleh users
- */
 public class BorrowingDAO {
 
     /**

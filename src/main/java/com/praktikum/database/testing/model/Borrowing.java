@@ -10,11 +10,6 @@ import lombok.NoArgsConstructor;
 import java.math.BigDecimal;
 import java.sql.Timestamp;
 
-/**
- * Entity class yang merepresentasikan tabel 'borrowings' dalam
- * database
- * Menyimpan informasi tentang peminjaman buku oleh user
- */
 @Data
 @Builder
 @NoArgsConstructor

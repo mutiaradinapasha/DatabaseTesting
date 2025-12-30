@@ -9,11 +9,6 @@ import lombok.NoArgsConstructor;
 // Import Java SQL classes untuk handle timestamp
 import java.sql.Timestamp;
 
-/**
- * Entity class yang merepresentasikan tabel 'users' dalam database
- * Menggunakan Lombok annotations untuk generate getter, setter,
- * constructor otomatis
- */
 @Data // Lombok: Generate getter, setter, toString, equals,
 // hashCode otomatis
 @Builder // Lombok: Implement builder pattern untuk object creation

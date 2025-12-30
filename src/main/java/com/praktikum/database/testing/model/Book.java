@@ -10,10 +10,6 @@ import lombok.NoArgsConstructor;
 import java.math.BigDecimal;
 import java.sql.Timestamp;
 
-/**
- * Entity class yang merepresentasikan tabel 'books' dalam database
- * Menyimpan informasi tentang buku yang ada di perpustakaan
- */
 @Data
 @Builder
 @NoArgsConstructor

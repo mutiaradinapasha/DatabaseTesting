@@ -1,8 +1,5 @@
 package com.praktikum.database.testing.config;
 
-// File: DatabaseConfig.java
-
-// Import classes untuk handle I/O dan database operations
 import java.io.IOException;
 import java.io.InputStream;
 import java.sql.Connection;
@@ -11,10 +8,6 @@ import java.sql.SQLException;
 import java.util.Properties;
 import java.util.logging.Logger;
 
-/**
- * Singleton class untuk mengelola koneksi database
- * Handle loading configuration, establishing connection, dan error handling
- */
 public class DatabaseConfig {
 
     // Logger untuk mencatat aktivitas dan error

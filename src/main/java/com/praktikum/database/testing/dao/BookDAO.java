@@ -9,10 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
-/**
- * Data Access Object (DAO) class untuk entity Book
- * Menangani semua operasi CRUD untuk tabel books
- */
+
 public class BookDAO {
 
     /**

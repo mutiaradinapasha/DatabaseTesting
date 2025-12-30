@@ -9,11 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
-/**
- * Data Access Object (DAO) class untuk entity User
- * Menangani semua operasi CRUD (Create, Read, Update, Delete) untuk tabel users
- * Menggunakan PreparedStatement untuk prevent SQL injection
- */
+
 public class UserDAO {
 
     /**

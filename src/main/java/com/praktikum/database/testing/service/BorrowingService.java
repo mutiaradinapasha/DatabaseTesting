@@ -1,6 +1,5 @@
 package com.praktikum.database.testing.service;
 
-
 // Import DAO classes dan model classes
 import com.praktikum.database.testing.dao.BookDAO;
 import com.praktikum.database.testing.dao.BorrowingDAO;
@@ -16,11 +15,6 @@ import java.util.Optional;
 import java.util.List;
 import java.util.logging.Logger;
 
-/**
- * Service class yang mengelola business logic untuk peminjaman buku
- * Mengintegrasikan UserDAO, BookDAO, dan BorrowingDAO
- * Menangani validasi business rules dan transaction logic
- */
 public class BorrowingService {
 
     // Logger untuk mencatat aktivitas service
